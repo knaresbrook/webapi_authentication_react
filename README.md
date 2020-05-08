@@ -8,4 +8,4 @@ The following packages are used: Redux, React-Redux, Redux-Logger, Redux-Thunk, 
 
 You have to change the webapi address in react, i am using http://localhost:64414/...., you change according to your port and address.
 
-
+Regarding axios, if you passing parameters to post/get methods, axios will not create querystring you need to use package called querystring and pass the required parameters and will work as expected.
