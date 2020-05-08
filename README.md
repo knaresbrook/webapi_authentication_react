@@ -9,3 +9,7 @@ The following packages are used: Redux, React-Redux, Redux-Logger, Redux-Thunk, 
 You have to change the webapi address in react, i am using http://localhost:64414/...., you change according to your port and address.
 
 Regarding axios, if you passing parameters to post/get methods, axios will not create querystring you need to use package called querystring and pass the required parameters and will work as expected.
+
+Note:-
+
+If you are trying to add for example products/customers to this webapi project, you can make it only authenticated user to view the products and customers after login. Once you login successfully the Bearer Token will be stored in Redux variable called bearerToken and IsLoggedIn will be true. The value can be accessed anytime you click on product/customer you need to pass the bearerToken.
